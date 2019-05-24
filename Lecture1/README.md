@@ -5,6 +5,8 @@ This lecture contains :
 * Object Oriented Programming Concepts 
 
 * Language Basics
+    * Variables
+    * Date Types
 
 * Classes and Objects
 
