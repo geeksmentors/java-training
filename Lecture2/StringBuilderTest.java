@@ -26,14 +26,6 @@ public class StringBuilderTest {
         System.out.println("String1 = "
                            + str1.toString());
 
-        // create a StringBuilder object
-        // usind StringBuilder(capacity) constructor
-        StringBuilder str2
-            = new StringBuilder(10);
-
-        // print string
-        System.out.println("String2 capacity = "
-                           + str2.capacity());
 
         // create a StringBuilder object
         // usind StringBuilder(String) constructor
