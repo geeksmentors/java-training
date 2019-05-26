@@ -58,4 +58,44 @@
     }
 }
 
+==
+  
+  import java.util.ArrayList;
+import java.util.Iterator;
+
+public class BalanceService {
+
+    ArrayList<UserDetails> list =  new ArrayList<UserDetails>();
+
+    int getBalance(String userId) {
+
+        /*
+
+        (1, 10) -> (2,20) -> (3,30)
+         */
+        Iterator itr = list.iterator();
+        while (itr.hasNext()) {
+            UserDetails userDetails = (UserDetails) itr.next();
+
+            if (userId.equals(userDetails.userId)) {
+                return userDetails.balance;
+            }
+        }
+        return  -1;
+    }
+
+    boolean setBalance(String userId, int balance){
+        UserDetails userDetails = new UserDetails();
+        userDetails.balance = balance;
+        userDetails.userId = userId;
+
+        list.add(userDetails);
+        return true;
+    }
+
+}
+
+
+========================
+
   
