@@ -9,7 +9,7 @@ public class InheritanceTest // driver class
     {
 
         MountainBike mb = new MountainBike(3, 100, 25);
-        System.out.println(mb.toString());
+        System.out.println(mb);
 
     }
 }

@@ -1,11 +1,16 @@
 package com.gfg.languagebasics.decisionmaking;
 
+import java.util.Scanner;
+
 public class SwitchCaseWithStringDemo {
 
 
     public static void main(String[] args)
     {
-        String str = "two";
+        String str ;
+
+        Scanner scanner = new Scanner(System.in);
+        str = scanner.next();
         switch(str)
         {
             case "one":

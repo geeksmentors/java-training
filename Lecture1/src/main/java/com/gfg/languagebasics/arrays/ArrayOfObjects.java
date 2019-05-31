@@ -1,5 +1,9 @@
 package com.gfg.languagebasics.arrays;
 
+
+/*
+* To be taught after discussing Classes and Objects
+* */
 public class ArrayOfObjects {
 
     public static void main (String[] args)

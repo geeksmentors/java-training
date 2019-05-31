@@ -30,7 +30,7 @@ class MountainBike extends Bicycle
     public String toString()
     {
         return (super.toString()+
-                "\nseat height is "+seatHeight);
+                "\nseat height is dfj"+seatHeight);
     }
 
 }
