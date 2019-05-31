@@ -36,12 +36,6 @@ class StringTest
         System.out.println("Index of Share " +
                            s4.indexOf("Share"));
 
-        // Returns the index within the string of the
-        // first occurrence of the specified string,
-        // starting at the specified index.
-        System.out.println("Index of a  = " +
-                           s4.indexOf('a',3));
-
         // Checking equality of Strings
         Boolean out = "Geeks".equals("geeks");
         System.out.println("Checking Equality  " + out);
