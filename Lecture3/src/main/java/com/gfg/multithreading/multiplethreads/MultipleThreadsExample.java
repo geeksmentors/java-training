@@ -1,4 +1,4 @@
-package com.gfg.multithreading;
+package com.gfg.multithreading.multiplethreads;
 
 public class MultipleThreadsExample implements Runnable {
 

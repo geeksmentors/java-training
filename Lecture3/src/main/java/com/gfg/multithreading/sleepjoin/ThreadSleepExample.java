@@ -1,4 +1,4 @@
-package com.gfg.multithreading;
+package com.gfg.multithreading.sleepjoin;
 
 public class ThreadSleepExample implements Runnable {
     @Override

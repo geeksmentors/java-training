@@ -1,10 +1,10 @@
-package com.gfg.multithreading;
+package com.gfg.multithreading.sleepjoin;
 
-public class MultipleThreadsWithJoinExample implements Runnable {
+public class ThreadsJoinExample implements Runnable {
 
     private String message;
 
-    public MultipleThreadsWithJoinExample(String message) {
+    public ThreadsJoinExample(String message) {
         this.message = message;
     }
     /*
@@ -18,9 +18,9 @@ public class MultipleThreadsWithJoinExample implements Runnable {
     }
 
     public static void main(String[] args) {
-        Thread firstThread = new Thread(new MultipleThreadsWithJoinExample("Hello from firstThread"));
+        Thread firstThread = new Thread(new ThreadsJoinExample("Hello from firstThread"));
 
-        Thread secondThread = new Thread(new MultipleThreadsWithJoinExample("Hello from secondThread"));
+        Thread secondThread = new Thread(new ThreadsJoinExample("Hello from secondThread"));
 
         firstThread.start();
 

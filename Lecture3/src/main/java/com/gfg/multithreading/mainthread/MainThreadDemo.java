@@ -1,4 +1,4 @@
-package com.gfg.multithreading;
+package com.gfg.multithreading.mainthread;
 
 public class MainThreadDemo {
 
