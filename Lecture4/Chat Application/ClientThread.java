@@ -9,15 +9,6 @@ import java.util.Vector;
 
     public class ClientThread implements Runnable
     {
-
-        ArrayList al=new ArrayList();
-        ArrayList users=new ArrayList();
-        ServerSocket ss;
-        Socket s;
-
-        public final static int PORT=8686;
-        public final static String UPDATE_USERS="updateuserslist:";
-        public final static String LOGOUT_MESSAGE="@@logoutme@@:";
         DataInputStream dis;
         MyClient client;
 

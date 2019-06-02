@@ -11,12 +11,8 @@ import java.util.Iterator;
 public class ServerThread implements Runnable{
     ArrayList al=new ArrayList();
     ArrayList users=new ArrayList();
-    ServerSocket ss;
     Socket s;
 
-    public final static int PORT=8686;
-    public final static String UPDATE_USERS="updateuserslist:";
-    public final static String LOGOUT_MESSAGE="@@logoutme@@:";
         String username;
         ///////////////////////
         ServerThread (Socket s, ArrayList al,ArrayList users)
@@ -32,6 +28,8 @@ public class ServerThread implements Runnable{
                 tellEveryOne("****** "+ username+" Logged in at "+(new Date())+" ******");
                 sendNewUserList();
             }
+
+            // $,,556
             catch(Exception e){System.err.println("MyThread constructor  "+e);}
         }
         ///////////////////////
