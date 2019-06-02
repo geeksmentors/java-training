@@ -97,5 +97,17 @@ public class BalanceService {
 
 
 ========================
+  Links for Collections
+  
+  https://beginnersbook.com/2013/12/java-arraylist/
+  
+https://www.geeksforgeeks.org/arraylist-in-java/
+https://www.geeksforgeeks.org/linked-list-in-java/
+https://www.geeksforgeeks.org/java-util-hashmap-in-java/
+https://www.geeksforgeeks.org/hashset-in-java/
+https://www.geeksforgeeks.org/treemap-in-java/
+https://beginnersbook.com/2013/12/treemap-in-java-with-example/
+https://www.geeksforgeeks.org/hashmap-treemap-java/
+
 
   

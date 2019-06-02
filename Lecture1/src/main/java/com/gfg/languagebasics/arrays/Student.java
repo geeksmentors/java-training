@@ -1,5 +1,9 @@
 package com.gfg.languagebasics.arrays;
 
+
+/*
+ * To be taught after discussing Classes and Objects
+ * */
 class Student
 {
     public int roll_no;
