@@ -1,5 +1,7 @@
 create database feedback;
 
+use feedback;
+
 CREATE TABLE `comments` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `MYUSER` varchar(30) NOT NULL,
