@@ -1,0 +1,20 @@
+create database feedback;
+
+CREATE TABLE `comments` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `MYUSER` varchar(30) NOT NULL,
+  `EMAIL` varchar(30) DEFAULT NULL,
+  `WEBPAGE` varchar(100) NOT NULL,
+  `DATUM` date NOT NULL,
+  `SUMMARY` varchar(40) NOT NULL,
+  `COMMENTS` varchar(400) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1 |
+
+GRANT ALL ON *.* to sqluser@'%' IDENTIFIED BY 'sqluserpw';
+
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,REFERENCES,ALTER,INDEX on library.* TO 'sqluser'@'localhost' IDENTIFIED BY 'sqluserpw';
+
+flush privileges;
+
+
