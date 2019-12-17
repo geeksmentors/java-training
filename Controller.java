@@ -53,3 +53,12 @@ public class Controller {
 
  */
 
+ @GetMapping(path = "/hello/{name}")
+    public String helloWorldPathVariable(@PathVariable String name) {
+        String s1 = name;
+        return "Hello "+ s1;
+    }
+
+=========================
+        
+
