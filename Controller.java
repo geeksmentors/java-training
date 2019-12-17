@@ -61,4 +61,11 @@ public class Controller {
 
 =========================
         
+            @RequestMapping("/user")
+    public String getitem(@RequestParam("data") String itemid){
+
+        return "Hi " + itemid;
+    }
+    // http://localhost:8080/user?data=6
+        
 
